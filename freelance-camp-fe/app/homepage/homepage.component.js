@@ -12,8 +12,9 @@ var HomepageComponent = (function () {
     }
     HomepageComponent = __decorate([
         core_1.Component({
+            moduleId: module.id,
             selector: 'main-app',
-            template: '<h1>Freelance Bootcamp Dashboard</h1>'
+            templateUrl: 'homepage.component.html'
         })
     ], HomepageComponent);
     return HomepageComponent;
