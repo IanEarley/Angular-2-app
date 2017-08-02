@@ -23,7 +23,8 @@ var ProposalListComponent = (function () {
         core_1.Component({
             moduleId: module.id,
             selector: 'proposal',
-            templateUrl: 'proposal-list.component.html'
+            templateUrl: 'proposal-list.component.html',
+            styleUrls: ['proposal-list.component.css']
         })
     ], ProposalListComponent);
     return ProposalListComponent;

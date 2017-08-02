@@ -15,19 +15,19 @@ var DocumentsComponent = (function () {
                 description: "asdfasdfasdf asdf",
                 file_url: "http://google.com",
                 updated_at: "1-1-17",
-                image_url: "http://google.com",
+                image_url: "http://cdn2.hubspot.net/hub/53/file-2586076494-jpeg/hire-manage-freelancer.jpeg",
             },
             { title: "My second doc",
                 description: "asdfasdfasdf asdf",
                 file_url: "http://google.com",
                 updated_at: "1-1-17",
-                image_url: "http://google.com",
+                image_url: "http://www.java-studios.com/wp-content/uploads/2016/07/freelancing.jpg",
             },
             { title: "My last doc",
                 description: "asdfasdfasdf asdf",
                 file_url: "http://google.com",
                 updated_at: "1-1-17",
-                image_url: "http://google.com",
+                image_url: "http://www.surelyjobs.com/wp-content/uploads/2016/02/edfsdfs.jpg",
             }
         ];
     }
@@ -35,7 +35,8 @@ var DocumentsComponent = (function () {
         core_1.Component({
             moduleId: module.id,
             selector: 'documents',
-            templateUrl: 'documents.component.html'
+            templateUrl: 'documents.component.html',
+            styleUrls: ['documents.component.css']
         })
     ], DocumentsComponent);
     return DocumentsComponent;
